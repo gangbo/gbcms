@@ -8,6 +8,10 @@ class Home {
         $tpl = new SmartyConfig();
         $tpl->assign('var','123');
         $tpl->display('login.tpl');
-
+        $db = DB::getDB();
+        foreach ($db->query('SELECT * from cds') as $row) {
+            print_r($row);
+        }
+        var_dump($db);
     }
 }
