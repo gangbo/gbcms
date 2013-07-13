@@ -1,11 +1,8 @@
 <?php
 
-define('APP_DIR','app');
+define('APP_DIR','admin');
 define('SMARTY_DIR', 'Smarty/libs/');
-define('DB_STR','mysql:host=localhost;dbname=cdcol');
-define('DB_USER','root');
-define('DB_PWD','');
-
+include APP_DIR.'/config/app_config.php';
 include 'system/GBBase.class.php';
 include 'system/SmartyConfig.class.php';
 include 'system/db.class.php';
