@@ -1,5 +1,5 @@
 <?php
-include 'system/Mysql.class.php';
+include 'system/mysql.class.php';
 class DB {
 
     private $dbh;
