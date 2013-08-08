@@ -1,5 +1,5 @@
 <?php
-
+namespace BB;
 /**
  * Routing class to match request URL's against given routes and map them to a controller action.
  */

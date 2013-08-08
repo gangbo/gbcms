@@ -7,3 +7,4 @@ app/cache/templates_c/*
 *.err
 .*
 vendor
+jobs

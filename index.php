@@ -6,9 +6,10 @@
  */
 
 define('ENTRY_ABS_DIR',dirname(__FILE__));
+define('APP_DIR',ENTRY_ABS_DIR.'/app');
 
-require_once ENTRY_ABS_DIR.'/framework/bb.php';
+require_once ENTRY_ABS_DIR.'/framework/BB.php';
 
-$bb = new BB();
+$bb = new BB\BB();
 $bb->run();
 
