@@ -76,7 +76,7 @@ $system_path = 'ci/system';
  * NO TRAILING SLASH!
  *
  */
-$application_folder = 'application';
+$application_folder = 'admin';
 
 /*
  * --------------------------------------------------------------------
