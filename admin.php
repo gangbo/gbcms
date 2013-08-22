@@ -189,6 +189,7 @@ else {
     define('APPPATH', BASEPATH.$application_folder.'/');
 }
 
+
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE

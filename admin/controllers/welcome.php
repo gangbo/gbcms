@@ -20,10 +20,12 @@ class Welcome extends Base {
     public function __construct(){
         parent::__construct();
     }
+
     public function index()
     {
-        $this->load->view('welcome_message');
+        $this->render('login.html', array('name' => 'Fabien'));
     }
+
 }
 
 /* End of file welcome.php */
