@@ -21,8 +21,7 @@ class Welcome extends Base {
         parent::__construct();
     }
 
-    public function index()
-    {
+    public function index(){
         $this->render('login.html', array('name' => 'Fabien'));
     }
 
