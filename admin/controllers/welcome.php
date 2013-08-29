@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-include 'base.php';
-class Welcome extends Base {
+
+class Welcome extends MY_Controller {
 
     /**
      * Index Page for this controller.

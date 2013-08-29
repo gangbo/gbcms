@@ -1,6 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-include 'base.php';
-class Post extends Base {
+class Post extends MY_Controller{
 
     public function __construct(){
         parent::__construct();
